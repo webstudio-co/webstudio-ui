@@ -7,8 +7,7 @@ import {
   PRODUCT_CARD_VERT_HEIGHT,
   PRODUCT_CARD_VERT_WIDTH,
 } from 'webstudio/constants'
-import Image from 'next/image'
-import { shopifyResizeImage } from 'webstudio/helpers'
+import { shopifyResizeImage } from '@webstudio/shopify'
 
 type SwipeableProductImagesProps = {
 	product: Product

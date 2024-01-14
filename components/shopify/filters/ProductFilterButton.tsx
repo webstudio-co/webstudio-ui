@@ -20,7 +20,7 @@ import {
 	findProductTypeFilters,
 	findVendorFilters,
 	findTagFilters,
-} from 'webstudio/helpers'
+} from '@webstudio/shopify'
 import { Button, Stack } from '@mui/material'
 import { ListFilter } from 'lucide-react'
 

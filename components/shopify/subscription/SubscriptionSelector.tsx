@@ -3,7 +3,7 @@ import { Typography, Select, FormControl, MenuItem } from '@mui/material'
 import { 
   getSellingPlanDescription,
   getSellingPlanPrice 
-} from 'webstudio/helpers'
+} from '@webstudio/shopify'
 import { Product } from '@webstudio/shopify'
 
 type SubscriptionSelectorProps = {
