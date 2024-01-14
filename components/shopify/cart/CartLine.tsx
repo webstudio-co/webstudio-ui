@@ -18,7 +18,7 @@ import Image from 'next/image'
 import { Icon, TouchableOpacity } from 'webstudio/components'
 import { formatCurrency } from 'webstudio/helpers/shopify'
 import { useRouter } from 'next/router'
-import { CartLine } from 'webstudio/types/shopify'
+import { CartLine } from '@webstudio/shopify'
 
 type CartQuantityInputProps = {
 	quantity: number

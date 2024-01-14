@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react'
 import { ShopContext } from 'webstudio/context'
 import { getShopifyIdFromGid } from 'webstudio/helpers/shopify'
 import { useLoadingWrapper } from 'webstudio/hooks'
-import { Address } from 'webstudio/types/shopify'
+import { Address } from '@webstudio/shopify'
 
 const useAddresses = () => {
 	const { shopifyClient } = useContext(ShopContext)

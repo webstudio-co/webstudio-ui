@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react'
 import { ProductContext } from 'webstudio/context'
-import { ShopifyImage } from 'webstudio/types/shopify'
+import { ShopifyImage } from '@webstudio/shopify'
 
 const useProductContext = () => {
 	const [image, setImage] = useState<ShopifyImage>(null)

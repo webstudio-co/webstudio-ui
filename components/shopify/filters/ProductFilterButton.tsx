@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { ProductCollectionFilter } from 'webstudio/types/shopify'
+import { ProductCollectionFilter } from '@webstudio/shopify'
 import { Drawer, Popup } from 'webstudio/components'
 import {
 	FilterList,

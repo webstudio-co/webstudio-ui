@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Product } from 'webstudio/types/shopify'
+import { Product } from '@webstudio/shopify'
 import SwipeableViews from 'react-swipeable-views'
 import { TouchableOpacity } from 'webstudio/components'
 import { Box, Stack, MobileStepper } from '@mui/material'

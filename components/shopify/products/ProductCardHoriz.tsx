@@ -8,7 +8,7 @@ import {
 } from 'webstudio/constants'
 import SwipeableProductImages from './images/SwipeableProductImages'
 import { formatCurrency } from 'webstudio/helpers/shopify'
-import { Product } from 'webstudio/types/shopify'
+import { Product } from '@webstudio/shopify'
 
 type ProductCardProps = {
 	product: Product

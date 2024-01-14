@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ApolloProvider } from '@apollo/client'
 import ShopContext from './ShopContext'
-import { Checkout, Customer, Cart } from 'webstudio/types/shopify'
+import { Checkout, Customer, Cart } from '@webstudio/shopify'
 import { createClient, useApollo } from '@webstudio/shopify'
 import { getCookie } from 'cookies-next'
 

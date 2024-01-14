@@ -6,7 +6,7 @@ import {
 	Collection,
 	Product,
 	ProductCollectionFilter,
-} from 'webstudio/types/shopify'
+} from '@webstudio/shopify'
 
 const PER_PAGE = 20
 

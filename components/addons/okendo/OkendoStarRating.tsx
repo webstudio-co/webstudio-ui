@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'
-import { getShopifyIdFromGid } from 'webstudio/helpers/shopify'
-import { Product } from 'webstudio/types/shopify'
+import { getShopifyIdFromGid } from '@webstudio/shopify'
+import { Product } from '@webstudio/shopify'
 import { useTheme } from '@mui/material'
 
 type OkendoStarRatingProps = {

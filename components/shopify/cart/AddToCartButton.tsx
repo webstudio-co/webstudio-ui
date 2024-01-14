@@ -6,7 +6,7 @@ import { Stack, Button } from '@mui/material'
 import { IconLoader } from 'webstudio/components'
 import { FavoriteButton, QuantitySelector, SubscriptionSelector } from 'webstudio/components/shopify'
 import { ShopContext } from '@webstudio/shopify'
-import { Product, ProductVariant } from 'webstudio/types/shopify'
+import { Product, ProductVariant } from '@webstudio/shopify'
 
 type AddToCartButtonProps = {
 	product: Product

@@ -4,7 +4,7 @@ import {
   getSellingPlanDescription,
   getSellingPlanPrice 
 } from 'webstudio/helpers'
-import { Product } from 'webstudio/types/shopify'
+import { Product } from '@webstudio/shopify'
 
 type SubscriptionSelectorProps = {
   product: Product

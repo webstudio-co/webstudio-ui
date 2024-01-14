@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import CollectionContext from './CollectionContext'
-import { Product, Collection } from 'webstudio/types/shopify'
+import { Product, Collection } from '@webstudio/shopify'
 
 type CollectionProviderProps = {
 	children: React.ReactNode

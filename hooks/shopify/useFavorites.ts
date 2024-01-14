@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { CookieValueTypes, getCookie, setCookie } from 'cookies-next'
-import { Product } from 'webstudio/types/shopify'
+import { Product } from '@webstudio/shopify'
 
 type FavoritesProps = {
   product?: Product
