@@ -1,4 +1,5 @@
 import React from 'react'
+import { Typography } from '@material-ui/core'
 import { LoginForm, AuthScreen, LayoutLoader } from 'webstudio/components'
 import { useAuth } from 'webstudio/hooks'
 import { useRouter } from 'next/router'
@@ -23,7 +24,6 @@ const Login: React.FC<LoginProps> = (props) => {
 		forgotPasswordUrl,
 		signupUrl,
 		oneTimePasswordUrl,
-		disableUsername = false,
 	} = props || {}
 
 	const router = useRouter()
@@ -51,6 +51,9 @@ const Login: React.FC<LoginProps> = (props) => {
 	return (
 		<LayoutLoader loading={loading}>
 			<AuthScreen logo={logo} title={title} subtitle={subtitle}>
+        <Typography variant="h4" color="text.primary">
+          Hello, World 
+        </Typography>
 				<LoginForm
 					errors={errors}
 					loading={loading}
