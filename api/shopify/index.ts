@@ -1,1 +1,0 @@
-export { createShopifyClient } from './ShopifyClient'
