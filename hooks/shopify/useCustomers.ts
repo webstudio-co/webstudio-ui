@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { Customer } from 'webstudio/api/shopify/types'
+import { Customer } from 'webstudio/types/shopify'
 import useLoadingWrapper from '../common/useLoadingWrapper'
 import { ShopContext } from 'webstudio/context'
 

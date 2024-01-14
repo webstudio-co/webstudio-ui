@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { ShopContext } from 'webstudio/context'
 import { useLoadingWrapper } from 'webstudio/hooks'
-import { Order, ShopifyQueryParams } from 'webstudio/api/shopify/types'
+import { Order, ShopifyQueryParams } from 'webstudio/types/shopify'
 
 const useOrders = () => {
 	const { shopifyClient } = useContext(ShopContext)

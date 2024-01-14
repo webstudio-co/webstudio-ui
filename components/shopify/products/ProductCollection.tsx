@@ -8,7 +8,7 @@ import {
 	ProductCarousel,
 	ProductSortButton,
 } from 'webstudio/components/shopify'
-import { ProductCollectionSortKey } from 'webstudio/api/shopify/types'
+import { ProductCollectionSortKey } from 'webstudio/types/shopify'
 
 type ProductCollectionProps = {
 	title?: string

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react'
 import { ShopContext } from 'webstudio/context'
 import { getCookie, setCookie } from 'cookies-next'
-import { CartLine } from 'webstudio/api/shopify/types'
+import { CartLine } from 'webstudio/types/shopify'
 import { useLoadingWrapper } from 'webstudio/hooks'
 
 const useCart = () => {
