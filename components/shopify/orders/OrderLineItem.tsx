@@ -6,7 +6,7 @@ import {
 	ListItemIcon,
 	Typography,
 } from '@mui/material'
-import { formatCurrency } from 'webstudio/helpers/shopify'
+import { formatCurrency } from '@webstudio/shopify'
 import { Image } from 'webstudio/components'
 import { OrderLineItem } from 'api/shopify/types'
 

@@ -1,7 +1,4 @@
 import React from 'react'
-import {
-	SegmentProvider,	
-} from 'webstudio/context'
 import { ShopProvider, ProductProvider, CollectionProvider } from '@webstudio/shopify'
 import { Cart, SearchModal } from 'webstudio/components/shopify'
 
@@ -34,13 +31,11 @@ const ShopifyStore: React.FC<ShopifyStoreProps> = (props) => {
 			shopUrl={shopUrl}
 			storefrontAccessToken={storefrontAccessToken}
 		>
-			<SegmentProvider writeKey={segmentWriteKey}>
-				<Cart />
-				<SearchModal />
-				<ProductProvider>
-					<CollectionProvider>{children}</CollectionProvider>
-				</ProductProvider>
-			</SegmentProvider>
+      <Cart />
+      <SearchModal />
+      <ProductProvider>
+        <CollectionProvider>{children}</CollectionProvider>
+      </ProductProvider>
 		</ShopProvider>
 	)
 }

@@ -16,7 +16,7 @@ import {
 } from '@mui/material'
 import Image from 'next/image'
 import { Icon, TouchableOpacity } from 'webstudio/components'
-import { formatCurrency } from 'webstudio/helpers/shopify'
+import { formatCurrency } from '@webstudio/shopify'
 import { useRouter } from 'next/router'
 import { CartLine } from '@webstudio/shopify'
 
