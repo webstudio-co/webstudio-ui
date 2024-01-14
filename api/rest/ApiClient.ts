@@ -1,7 +1,7 @@
 import { ApiQuery } from './ApiQuery'
 import { RestClient } from './RestClient'
-import { User, QueryParams } from 'webstudio/types'
-import { ConfigParams, ExecuteResponse } from 'webstudio/types'
+import { User, QueryParams } from './types'
+import { ConfigParams, ExecuteResponse } from './types'
 
 export class ApiClient {
 	private payload?: object

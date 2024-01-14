@@ -1,15 +1,15 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import { useState } from 'react'
 import { ApiContext } from 'webstudio/context/core'
 import { useRouter } from 'next/router'
-import { QueryParams, QueryProps, Resource, PageInfo } from 'webstudio/types'
+import { QueryParams, Resource, PageInfo } from 'webstudio/types'
 
-type UseResourceProps = {
+type ResourceProps = {
 	url?: string
 	name?: string
 }
 
-const useResource = (props: UseResourceProps): Record<string, any> => {
+const useResource = (props: ResourceProps): Record<string, any> => {
 	const { url, name = 'resource' } = props || {}
 
 	const router = useRouter()

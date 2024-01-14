@@ -4,7 +4,7 @@ import {
 	Filters,
 	Filter,
 	QueryFilterArrayParams,
-} from 'webstudio/types'
+} from './types'
 
 export class ApiQuery {
 	private _sort_by?: string
