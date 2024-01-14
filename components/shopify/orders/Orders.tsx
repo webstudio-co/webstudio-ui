@@ -4,7 +4,7 @@ import { useOrders } from 'webstudio/hooks/shopify'
 import { OrderList } from 'webstudio/components/shopify'
 import { AppContext } from 'webstudio/context'
 import { useRouter } from 'next/router'
-import { getShopifyIdFromGid } from 'webstudio/api/shopify/utils'
+import { getShopifyIdFromGid } from 'webstudio/helpers/shopify'
 
 type ShopifyCustomerOrdersProps = {
 	logo: string

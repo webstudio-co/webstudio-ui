@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 import { ShopContext } from 'webstudio/context'
-import { getShopifyIdFromGid } from 'webstudio/api/shopify/utils'
+import { getShopifyIdFromGid } from 'webstudio/helpers/shopify'
 import { useLoadingWrapper } from 'webstudio/hooks'
 import { Address } from 'webstudio/api/shopify/types'
 

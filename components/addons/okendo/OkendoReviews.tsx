@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { getShopifyIdFromGid } from 'webstudio/api/shopify/utils'
+import { getShopifyIdFromGid } from 'webstudio/helpers/shopify'
 import { useProducts } from 'webstudio/hooks/shopify'
 import Head from 'next/head'
 

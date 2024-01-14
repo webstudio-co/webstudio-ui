@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { Popup } from 'webstudio/components'
 import SortList from './SortList'
 import { ButtonGroup, Button } from '@mui/material'
-import { COLLECTION_SORT_OPTIONS } from 'webstudio/api/shopify/constants'
-import { ProductCollectionSortKey } from 'webstudio/api/shopify/types'
+import { COLLECTION_SORT_OPTIONS } from 'webstudio/constants/shopify'
+import { ProductCollectionSortKey } from 'webstudio/types/shopify'
 import { ArrowUpward, ArrowDownward } from '@mui/icons-material'
 
 type ProductSortButtonProps = {

@@ -369,3 +369,21 @@ export type ProductCollectionFilter =
 	| { tag: string }
 
 export type ProductCollectionFilters = ProductCollectionFilter[]
+
+export type ProductCollectionSortKey =
+	| 'BEST_SELLING'
+	| 'COLLECTION_DEFAULT'
+	| 'CREATED'
+	| 'ID'
+	| 'MANUAL'
+	| 'PRICE'
+	| 'RELEVANCE'
+	| 'TITLE'
+
+export type ShopifyQueryParams = {
+	query?: string
+	first?: number
+	sortKey?: ProductCollectionSortKey
+	reverse?: boolean
+	after?: string
+}
