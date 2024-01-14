@@ -1,7 +1,7 @@
 import React, { useEffect, useContext } from 'react'
 import { Stack } from '@mui/material'
 import { LikeButton, FavoriteButton, ShareButton } from 'webstudio/components'
-import { useProductContext } from 'webstudio/hooks/shopify'
+import { useProductContext } from '@webstudio/shopify'
 import { useRouter } from 'next/router'
 import { useResource } from 'webstudio/hooks'
 import { ShopContext } from 'webstudio/context'

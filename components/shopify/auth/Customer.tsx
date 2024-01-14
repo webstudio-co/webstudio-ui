@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { AuthScreen, LayoutLoader } from 'webstudio/components'
-import { useCustomers } from 'webstudio/hooks/shopify'
+import { useCustomers } from '@webstudio/shopify'
 import { CustomerForm } from 'webstudio/components/shopify'
 
 type CustomerProps = {

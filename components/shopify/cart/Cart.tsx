@@ -1,7 +1,8 @@
 import React, { useEffect, useContext } from 'react'
-import { useCart, useSegment } from 'webstudio/hooks/shopify'
+import { useCart } from '@webstudio/shopify'
+import { useSegment } from 'webstudio/hooks/addons'
 import { Box, Stack } from '@mui/material'
-import { ShopContext } from 'webstudio/context/shopify'
+import { ShopContext } from '@webstudio/shopify'
 import { Drawer, Placeholder } from 'webstudio/components'
 import {
 	CartDiscounts,

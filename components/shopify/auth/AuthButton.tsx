@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { IconButton } from '@mui/material'
-import { useAuth } from 'webstudio/hooks/shopify'
+import { useAuth } from '@webstudio/shopify'
 import { useMenu } from 'webstudio/hooks'
 import { UserMenu } from 'webstudio/components'
 import { useRouter } from 'next/router'

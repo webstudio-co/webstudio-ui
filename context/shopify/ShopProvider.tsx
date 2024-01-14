@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import { ApolloProvider } from '@apollo/client'
-import { useApollo } from '@webstudio/shopify'
 import ShopContext from './ShopContext'
 import { Checkout, Customer, Cart } from 'webstudio/types/shopify'
-import { createClient } from '@webstudio/shopify'
+import { createClient, useApollo } from '@webstudio/shopify'
 import { getCookie } from 'cookies-next'
 
 type ShopProviderProps = {
@@ -24,7 +23,7 @@ const ShopProvider = (props: ShopProviderProps) => {
 		authCookie,
 		shopUrl,
 		storefrontAccessToken,
-		apiVersion = '2023-10',
+		apiVersion = '2024-01',
 	} = props
 
 	const fetchAccessToken = () => String(getCookie(authCookie))
@@ -45,8 +44,7 @@ const ShopProvider = (props: ShopProviderProps) => {
 	const [customer, setCustomer] = useState<Customer | any>({})
 
 	const [expiresAt, setExpiresAt] = useState()
-	const [loading, setLoading] = useState(false)
-	const [lineItemTotal, setLineItemTotal] = useState(0)
+	const [loading, setLoading] = useState(false)	
 	const [shop, setShop] = useState()
 
 	const [authOpen, setAuthOpen] = useState(false)
@@ -105,8 +103,6 @@ const ShopProvider = (props: ShopProviderProps) => {
 
 		checkout,
 		setCheckout,
-		lineItemTotal,
-		setLineItemTotal,
 	}
 
 	return (

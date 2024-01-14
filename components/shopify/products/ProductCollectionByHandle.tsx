@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { ProductCollection } from 'webstudio/components/shopify'
-import { useCollections } from 'webstudio/hooks/shopify'
+import { useCollections } from '@webstudio/shopify'
 
 type ProductCollectionByHandleProps = {
 	editing?: boolean

@@ -7,7 +7,7 @@ import {
 	ProductImages,
 	ProductVariantSelector,
 } from 'webstudio/components/shopify'
-import { useRecentlyViewed, useProductContext } from 'webstudio/hooks/shopify'
+import { useRecentlyViewed, useProductContext } from '@webstudio/shopify'
 import { useResourceContext } from 'webstudio/hooks'
 
 type ProductDetailPageProps = {

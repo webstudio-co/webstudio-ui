@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from '@mui/material'
 import { Icon } from 'webstudio/components'
-import { useFavorites } from 'webstudio/hooks/shopify'
+import { useFavorites } from '@webstudio/shopify'
 import { Product } from 'webstudio/types/shopify'
 
 type FavoriteButtonProps = {

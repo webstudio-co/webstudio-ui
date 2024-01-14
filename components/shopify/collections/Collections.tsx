@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from 'react'
-import { useCollections } from 'webstudio/hooks/shopify'
+import { useCollections } from '@webstudio/shopify'
 import { StyledList } from 'webstudio/components'
 import { Stack, useTheme, Typography } from '@mui/material'
 import { ShopContext } from 'webstudio/context'

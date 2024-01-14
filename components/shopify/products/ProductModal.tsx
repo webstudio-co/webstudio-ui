@@ -1,7 +1,7 @@
 import React from 'react'
 import { Modal } from 'webstudio/components'
 import { ProductDetailPage } from 'webstudio/components/shopify'
-import { ProductProvider } from 'webstudio/context/shopify'
+import { ProductProvider } from '@webstudio/shopify'
 
 type ProductModalProps = {
 	handle: string
@@ -12,7 +12,8 @@ type ProductModalProps = {
 }
 
 const ProductModal: React.FC<ProductModalProps> = (props) => {
-	const {
+	
+  const {
 		handle,
 		enableQuantity,
 		open = false,

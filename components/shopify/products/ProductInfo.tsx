@@ -1,5 +1,5 @@
 import React from 'react'
-import { useProductContext } from 'webstudio/hooks/shopify'
+import { useProductContext } from '@webstudio/shopify'
 import { Stack, Typography } from '@mui/material'
 import { formatCurrency } from 'webstudio/helpers/shopify'
 import { ProductDescription } from 'webstudio/components/shopify'

@@ -9,7 +9,7 @@ import {
 	ListItemText,
 } from '@mui/material'
 import { AuthScreen, Placeholder } from 'webstudio/components'
-import { useAuth } from 'webstudio/hooks/shopify'
+import { useAuth } from '@webstudio/shopify'
 import { useRouter } from 'next/router'
 import { User, ShoppingCart, MapPin, LogOut } from 'lucide-react'
 import { AppContext } from 'webstudio/context'

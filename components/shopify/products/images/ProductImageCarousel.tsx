@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box } from '@mui/material'
 import { CarouselImage, TouchableOpacity } from 'webstudio/components'
-import { useProductContext } from 'webstudio/hooks/shopify'
+import { useProductContext } from '@webstudio/shopify'
 
 const ProductImageCarousel: React.FC = () => {
 	const { images, handleImageClick } = useProductContext()

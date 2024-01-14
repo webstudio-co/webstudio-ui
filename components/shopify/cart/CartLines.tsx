@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCart } from 'webstudio/hooks/shopify'
+import { useCart } from '@webstudio/shopify'
 import { List } from '@mui/material'
 import { CartLine } from 'webstudio/components/shopify'
 

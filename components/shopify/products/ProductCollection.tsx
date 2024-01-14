@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Typography, Stack } from '@mui/material'
-import { useCollections } from 'webstudio/hooks/shopify'
+import { useCollections } from '@webstudio/shopify'
 import {
 	ProductFilterButton,
 	ProductList,

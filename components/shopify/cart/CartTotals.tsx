@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCart, useLoaders } from 'webstudio/hooks/shopify'
+import { useCart, useLoaders } from '@webstudio/shopify'
 import { Stack } from '@mui/material'
 import { formatCurrency } from 'webstudio/helpers/shopify'
 import { CartText, CartDiscountCode } from 'webstudio/components/shopify'

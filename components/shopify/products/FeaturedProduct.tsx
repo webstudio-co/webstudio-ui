@@ -5,7 +5,7 @@ import { truncate } from 'webstudio/helpers'
 import { FEATURED_CARD_HEIGHT, FEATURED_CARD_WIDTH } from 'webstudio/constants'
 import SwipeableProductImages from './images/SwipeableProductImages'
 import { formatCurrency } from 'webstudio/helpers/shopify'
-import { useProducts } from 'webstudio/hooks/shopify'
+import { useProducts } from '@webstudio/shopify'
 
 type FeaturedProductProps = {
 	handle: string

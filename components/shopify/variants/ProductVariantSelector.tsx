@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductVariantOptions from './ProductVariantOptions'
 import ColorVariantOptions from './ColorVariantOptions'
-import { useProductContext } from 'webstudio/hooks/shopify'
+import { useProductContext } from '@webstudio/shopify'
 
 const ProductVariantSelector: React.FC = () => {
 	const { product, selectedOptions, handleOptionChange } = useProductContext()

@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Stack } from '@mui/material'
 import { ProductCardHoriz } from 'webstudio/components/shopify'
 import { useRouter } from 'next/router'
-import { useSegment } from 'webstudio/hooks/shopify'
+import { useSegment } from 'webstudio/hooks/addons'
 import { Product } from 'webstudio/types/shopify'
 import { AppContext } from 'webstudio/context'
 

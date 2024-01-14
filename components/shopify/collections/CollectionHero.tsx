@@ -3,7 +3,7 @@ import { Stack } from '@mui/material'
 import {
   CoverImage
 } from 'webstudio/components'
-import { useCollections } from 'webstudio/hooks/shopify'
+import { useCollections } from '@webstudio/shopify'
 import { TypographyVariants } from 'webstudio/types'
 
 type CollectionHeroProps = {

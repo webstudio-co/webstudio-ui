@@ -1,7 +1,6 @@
 import React, { useEffect, useContext } from 'react'
-import { ProductContext } from 'webstudio/context/shopify'
-import { useProducts } from 'webstudio/hooks/shopify'
-import { LayoutLoader } from 'webstudio/components'
+import { ProductContext } from '@webstudio/shopify'
+import { useProducts } from '@webstudio/shopify'
 import { Product } from 'webstudio/types/shopify'
 
 type ShopifyProductPageProps = {

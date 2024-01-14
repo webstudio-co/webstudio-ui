@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react'
-import { ShopContext } from 'webstudio/context/shopify'
-import { useCart, useSegment } from 'webstudio/hooks/shopify'
+import { ShopContext } from '@webstudio/shopify'
+import { useCart } from '@webstudio/shopify'
+import { useSegment } from 'webstudio/hooks/addons'
 import {
 	Badge,
 	Box,

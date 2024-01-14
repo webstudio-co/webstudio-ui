@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { AuthScreen, AlertModal, LayoutLoader } from 'webstudio/components'
 import { Button, Stack } from '@mui/material'
-import { useAddresses } from 'webstudio/hooks/shopify'
+import { useAddresses } from '@webstudio/shopify'
 import { AddressForm } from 'webstudio/components/shopify'
 import { AppContext } from 'webstudio/context'
 import { useRouter } from 'next/router'

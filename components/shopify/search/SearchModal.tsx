@@ -9,8 +9,9 @@ import {
 	Box,
 	IconButton,
 } from '@mui/material'
-import { ShopContext } from 'webstudio/context/shopify'
-import { useProducts, useSegment } from 'webstudio/hooks/shopify'
+import { ShopContext } from '@webstudio/shopify'
+import { useProducts } from '@webstudio/shopify'
+import { useSegment } from 'webstudio/hooks/addons'
 import { X, Search } from 'lucide-react'
 import { useTheme } from '@mui/material/styles'
 

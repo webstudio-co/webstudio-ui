@@ -1,7 +1,7 @@
 import React from 'react'
 import { AuthScreen, LayoutLoader } from 'webstudio/components'
 import { ForgotPasswordForm } from 'webstudio/components/shopify'
-import { useAlerts, useAuth } from 'webstudio/hooks/shopify'
+import { useAlerts, useAuth } from '@webstudio/shopify'
 import { useRouter } from 'next/router'
 
 type ForgotPasswordProps = {

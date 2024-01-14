@@ -14,6 +14,3 @@ export { default as useProductContext } from './useProductContext'
 export { default as useRecentlyViewed } from './useRecentlyViewed'
 export { default as useShop } from './useShop'
 export { default as useAuth } from './useAuth'
-
-// Addons
-export { default as useSegment } from './addons/useSegment'

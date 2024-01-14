@@ -3,7 +3,7 @@ import React, { useContext } from 'react'
 import { Grid, Box } from '@mui/material'
 import { ProductCardVert } from 'webstudio/components/shopify'
 import { useRouter } from 'next/router'
-import { useSegment } from 'webstudio/hooks/shopify'
+import { useSegment } from 'webstudio/hooks/addons'
 import { Product } from 'webstudio/types/shopify'
 import { AppContext } from 'webstudio/context'
 

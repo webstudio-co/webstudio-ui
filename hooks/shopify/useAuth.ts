@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { ShopContext } from 'webstudio/context/shopify'
+import { ShopContext } from '@webstudio/shopify'
 import { useLoadingWrapper } from 'webstudio/hooks'
 import { deleteCookie, setCookie } from 'cookies-next'
 

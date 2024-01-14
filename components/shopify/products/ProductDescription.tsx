@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Stack, Typography } from '@mui/material'
 import { TypographyVariants } from 'webstudio/types'
-import { useProductContext } from 'webstudio/hooks/shopify'
+import { useProductContext } from '@webstudio/shopify'
 
 type ProductDescriptionProps = {
 	label?: string
