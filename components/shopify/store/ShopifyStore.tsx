@@ -1,5 +1,5 @@
 import React from 'react'
-import { ShopProvider, ProductProvider, CollectionProvider } from '@webstudio/shopify'
+import { ShopProvider, ProductProvider, CollectionProvider } from '@webstudio/shopify/context'
 import { Cart, SearchModal } from 'webstudio/components/shopify'
 
 type ShopifyStoreProps = {

@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react'
-import { useProducts } from '@webstudio/shopify'
+import { useProducts } from '@webstudio/shopify/hooks'
 import { useSegment } from 'webstudio/hooks/addons'
 import { useRouter } from 'next/router'
 import { Box } from '@mui/material'

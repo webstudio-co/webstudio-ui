@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Typography, Stack } from '@mui/material'
-import { useCollections } from '@webstudio/shopify'
+import { useCollections } from '@webstudio/shopify/hooks'
 import {
 	ProductFilterButton,
 	ProductList,
@@ -8,7 +8,7 @@ import {
 	ProductCarousel,
 	ProductSortButton,
 } from 'webstudio/components/shopify'
-import { ProductCollectionSortKey } from '@webstudio/shopify'
+import { ProductCollectionSortKey } from '@webstudio/shopify/types'
 
 type ProductCollectionProps = {
 	title?: string

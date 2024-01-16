@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { Typography, Select, FormControl, MenuItem } from '@mui/material'
 import { 
   getSellingPlanDescription,
-  getSellingPlanPrice 
-} from '@webstudio/shopify'
-import { Product } from '@webstudio/shopify'
+} from '@webstudio/shopify/helpers'
+import { Product } from '@webstudio/shopify/types'
 
 type SubscriptionSelectorProps = {
   product: Product

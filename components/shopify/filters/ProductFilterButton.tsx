@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { ProductCollectionFilter } from '@webstudio/shopify'
-import { Drawer, Popup } from 'webstudio/components'
+import { ProductCollectionFilter } from '@webstudio/shopify/types'
+import { Popup } from 'webstudio/components'
 import {
 	FilterList,
 	ColorFilters,
@@ -20,7 +20,7 @@ import {
 	findProductTypeFilters,
 	findVendorFilters,
 	findTagFilters,
-} from '@webstudio/shopify'
+} from '@webstudio/shopify/helpers'
 import { Button, Stack } from '@mui/material'
 import { ListFilter } from 'lucide-react'
 

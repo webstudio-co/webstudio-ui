@@ -1,6 +1,6 @@
 import React from 'react'
 import { AuthScreen, LayoutLoader } from 'webstudio/components'
-import { useAuth } from '@webstudio/shopify'
+import { useAuth } from '@webstudio/shopify/hooks'
 import { LoginForm } from 'webstudio/components/shopify'
 import { useRouter } from 'next/router'
 

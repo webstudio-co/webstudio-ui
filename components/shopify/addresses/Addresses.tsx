@@ -2,11 +2,11 @@ import React, { useContext, useEffect, useState } from 'react'
 import { AuthScreen, AlertModal, LayoutLoader } from 'webstudio/components'
 import { Plus } from 'lucide-react'
 import { Button } from '@mui/material'
-import { useAddresses } from '@webstudio/shopify'
+import { useAddresses } from '@webstudio/shopify/hooks'
 import { AddressList } from 'webstudio/components/shopify'
 import { AppContext } from 'webstudio/context'
 import { useRouter } from 'next/router'
-import { getShopifyIdFromGid } from '@webstudio/shopify'
+import { getShopifyIdFromGid } from '@webstudio/shopify/helpers'
 
 type AddressesProps = {
 	logo: string

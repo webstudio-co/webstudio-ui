@@ -3,7 +3,7 @@ import { Stack } from '@mui/material'
 import { ProductCardHoriz } from 'webstudio/components/shopify'
 import { useRouter } from 'next/router'
 import { useSegment } from 'webstudio/hooks/addons'
-import { Product } from '@webstudio/shopify'
+import { Product } from '@webstudio/shopify/types'
 import { AppContext } from 'webstudio/context'
 
 type ProductListProps = {

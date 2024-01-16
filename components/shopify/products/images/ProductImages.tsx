@@ -5,7 +5,7 @@ import {
 	SwipeableProductImages,
 } from 'webstudio/components/shopify'
 import { PDP_IMAGE_HEIGHT } from 'webstudio/constants'
-import { Product } from '@webstudio/shopify'
+import { Product } from '@webstudio/shopify/types'
 
 type ProductImagesProps = {
 	product: Product

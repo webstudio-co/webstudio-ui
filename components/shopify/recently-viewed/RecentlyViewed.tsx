@@ -9,7 +9,7 @@ import {
 	ProductCarousel,
 } from 'webstudio/components/shopify'
 import { Box, Typography } from '@mui/material'
-import { useRecentlyViewed } from '@webstudio/shopify'
+import { useRecentlyViewed } from '@webstudio/shopify/hooks'
 
 type RecentlyViewedProps = {
 	editing?: boolean

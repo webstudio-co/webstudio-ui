@@ -8,7 +8,7 @@ import {
 	Stack,
 } from '@mui/material'
 import { Image } from 'webstudio/components'
-import { formatCurrency } from '@webstudio/shopify'
+import { formatCurrency } from '@webstudio/shopify/helpers'
 import moment from 'moment'
 import { Order } from 'api/shopify/types'
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import { getShopifyIdFromGid } from '@webstudio/shopify'
-import { useProducts } from '@webstudio/shopify'
+import { getShopifyIdFromGid } from '@webstudio/shopify/helpers'
+import { useProducts } from '@webstudio/shopify/hooks'
 import Head from 'next/head'
 
 type OkendoReviewsProps = {

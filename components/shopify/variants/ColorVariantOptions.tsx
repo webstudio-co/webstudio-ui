@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Typography, Button, Tooltip } from '@mui/material'
-import { useProductContext } from '@webstudio/shopify'
+import { useProductContext } from '@webstudio/shopify/hooks'
 import Image from 'next/image'
 import { findVariantByColor } from 'webstudio/helpers'
 

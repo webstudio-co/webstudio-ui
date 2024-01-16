@@ -1,7 +1,7 @@
 import React from 'react'
 import { Modal } from 'webstudio/components'
 import { ProductDetailPage } from 'webstudio/components/shopify'
-import { ProductProvider } from '@webstudio/shopify'
+import { ProductProvider } from '@webstudio/shopify/context'
 
 type ProductModalProps = {
 	handle: string

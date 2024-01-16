@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from 'webstudio/components'
 import { IconButton, Button, Stack, Box, Typography } from '@mui/material'
-import { useCart } from '@webstudio/shopify'
+import { useCart } from '@webstudio/shopify/hooks'
 import { useLoaders } from 'webstudio/hooks'
 
 type CartDiscountCodeProps = {	

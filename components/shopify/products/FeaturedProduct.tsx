@@ -4,8 +4,8 @@ import { Button, Box, Stack, Typography } from '@mui/material'
 import { truncate } from 'webstudio/helpers'
 import { FEATURED_CARD_HEIGHT, FEATURED_CARD_WIDTH } from 'webstudio/constants'
 import SwipeableProductImages from './images/SwipeableProductImages'
-import { formatCurrency } from '@webstudio/shopify'
-import { useProducts } from '@webstudio/shopify'
+import { formatCurrency } from '@webstudio/shopify/helpers'
+import { useProducts } from '@webstudio/shopify/hooks'
 
 type FeaturedProductProps = {
 	handle: string

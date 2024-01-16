@@ -1,5 +1,3 @@
-import { get } from 'lodash'
-
 export const isEmptyObject = (object) => {
 	if (Object.values(object).every((x) => x === null || x === '')) {
 		return false
