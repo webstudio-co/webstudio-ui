@@ -10,7 +10,6 @@ export { default as AttachmentInput } from 'webstudio/components/ui/inputs/Attac
 export { default as Alert } from 'webstudio/components/ui/Alert'
 export { default as Autosuggest } from 'webstudio/components/ui/Autosuggest'
 export { default as Button } from 'webstudio/components/ui/Button'
-export { default as BackButton } from 'webstudio/components/ui/BackButton'
 export { default as ButtonLoader } from 'webstudio/components/ui/ButtonLoader'
 export { default as SquareButton } from 'webstudio/components/ui/SquareButton'
 export { default as CardVert } from 'webstudio/components/ui/cards/CardVert'

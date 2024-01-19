@@ -37,6 +37,7 @@ export const groupBy = (arr, name) => {
 	const grouped = {}
 
 	arr.forEach((item) => {
+    if(!item || !item[name]) return;
 		const groupBy = item[name]
 
 		if (!grouped[groupBy]) {
